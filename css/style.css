@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Global styles*/
+body {
+  font: 1rem/20px Arial, Helvetica, sans-serif;
+  background: #ddd;
+}
+.wrapper {
+  margin: auto;
+  padding: 0.5rem;
+  width: 80%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.highlight {
+  color: orangered;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}
+/* Header */
+header #navbar {
+  background: #444;
+  width: 100%;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid orangered;
+}
+
+header h1 {
+  font-size: 2.3rem;
+}
+
+header #logo {
+  float: left;
+}
+
+header #links {
+  float: right;
+}
+
+header li {
+  display: inline;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #fff;
+  transition: 0.3s;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  
+}
+
+header a:hover {
+  color: #fff;
+}
+
+header li:hover {
+  background: orangered;
+  color: #fff;
+}
+
+/* Showcase */
+#showcase {
+  background: url('../img/showcase.jpg') 0px -400px;
+  color: #fff;
+  min-height: 400px;
+  font-size: 1.3rem;
+  text-align: center;
+  /* padding: 3rem; */
+  line-height: 2rem;
+}
+
+#showcase h1 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  line-height: normal;
+}
+
+/* Subscribe */
+#subscribe-form {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background: #444;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#subscribe-form h3 {
+  float: left;
+  padding-top: 10px;
+}
+
+#subscribe-form form {
+  width: 30%;
+  float: right;
+}
+
+#subscribe-form input[type=email] {
+  width: 70%;
+  height: 2rem;
+}
+
+#subscribe-form button {
+  border: 0;
+  background: orangered;
+  color: white;
+  padding: 10px 10px;
+}
+
+/* Boxes */
+#boxes {
+  text-align: center;
+  line-height: 1.5rem;
+}
+#boxes .box {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+#boxes img {
+  width: 100px;
+}
+
+#boxes h3 {
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  background: orangered;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Media queries */
