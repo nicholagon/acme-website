@@ -158,9 +158,6 @@ footer {
 
 /* Media queries */
 @media (max-width: 768px) {
-  .wrapper {
-    width: 90%;
-  }
   header h1 {
     font-size: 2rem;
     margin-bottom: 30px;
