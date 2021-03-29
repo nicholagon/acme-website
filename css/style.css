@@ -45,6 +45,26 @@ button{
   margin: 5px;
 }
 
+.quote-aside {
+  float: right;
+  width: 25%;
+  margin: 30px 0;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+}
+
+.quote-aside h3 {
+  margin: 10px 0 20px 0;
+}
+
+.quote-aside label,
+.quote-aside input,
+.quote-aside textarea {
+  display: block;
+  padding: 2px 0;
+  width: 90%;
+}
+
 /* Header */
 header #navbar {
   background: #444;
@@ -164,11 +184,12 @@ header li:hover {
   margin: 20px 0;
 }
 
-/* Services */
+/* Services + About */
+#about #main-about,
 #services #main-section{
   padding: 30px 0;
   float: left;
-  width: 65%;
+  width: 70%;
 }
 
 #services .service {
@@ -178,30 +199,11 @@ header li:hover {
   margin: 20px 0px;
 }
 
+#about p,
 #services p {
   margin: 20px 0px;
   font-size: 1rem;
   line-height: 24px;
-}
-
-#services .quote-aside {
-  float: right;
-  width: 25%;
-  margin: 30px 0;
-  padding: 20px 10px;
-  font-size: 0.9rem;
-}
-
-#services .quote-aside h3 {
-  margin: 10px 0 20px 0;
-}
-
-#services .quote-aside label,
-#services .quote-aside input,
-#services .quote-aside textarea {
-  display: block;
-  padding: 2px 0;
-  width: 90%;
 }
 
 /* Footer */
@@ -214,6 +216,16 @@ footer {
 
 /* Media queries */
 @media (max-width: 840px) {
+  .quote-aside {
+    float: none;
+    width: 95%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
   header h1 {
     font-size: 2rem;
     margin-bottom: 30px;
@@ -290,6 +302,7 @@ footer {
     width: 100%;
   }
 
+  #about #main-about,
   #services #main-section {
     float:none;
     width: 100%;
@@ -299,15 +312,6 @@ footer {
 
   #services .service {
     margin: 20px 0 10px 0;
-  }
-
-  #services .quote-aside {
-    float: none;
-    width: 100%;
-    display: block;
-    margin: 0px 0px 20px 0px;
-    text-align: center;
-    padding: 10px;
   }
 
   #services * {
